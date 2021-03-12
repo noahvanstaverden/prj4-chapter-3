@@ -1,13 +1,21 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	font-size: 100%; 
+}
+
 body {
-    background-color: darkseagreen;
-    background-image: -webkit-linear-gradient(270deg,rgba(143,188,143,1.00) 0%,rgba(255,255,255,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(143,188,143,1.00) 0%,rgba(255,255,255,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(143,188,143,1.00) 0%,rgba(255,255,255,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(143,188,143,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-color: #FFFFFF;
+    background-image: url(../images/gras-dauw.jpg);
+	background-size:cover;
+	width: 100%;
+	height: 244px;
+	padding-bottom: 20px;
 }
 
 #title {
-    color: antiquewhite;
+    color: #488C03;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-style: normal;
     font-variant: normal;
@@ -20,13 +28,47 @@ body {
     border-top-style: dotted;
     border-top-color: #FAEBD7;
     text-align: center;
+    background-size: 500px 556px;
 }
+
 .my-container2 {
     border-bottom-style: dotted;
     border-bottom-color: #FAEBD7;
     text-align: center;
 }
+
 .my-paragraph {
     text-align: center;
     font-weight: bold;
 }
+
+.my-content {
+    background-color: #E9E9EC;
+    width: 876px;
+    height: 717px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.my-font {
+	color: #000000;
+	font-family: 'Shippori Mincho';
+	font-size: 12px;
+}
+
+.my-border {
+    color: #488C03;
+    border: solid #488C03;
+}
+
+
+
+
+
+
+
+
+
+
