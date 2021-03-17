@@ -25,15 +25,14 @@ body {
 }
 
 .my-container {
-    border-top-style: dotted;
-    border-top-color: #FAEBD7;
-    text-align: center;
     background-size: 500px 556px;
+    border: thin solid #488C03;
+    text-align: center;
 }
 
 .my-container2 {
-    border-bottom-style: dotted;
-    border-bottom-color: #FAEBD7;
+  	background-size: 500px 556px;
+    border: thin solid #488C03;
     text-align: center;
 }
 
